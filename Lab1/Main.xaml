@@ -77,13 +77,13 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1281,683" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="897.2,683.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart sap:VirtualizedContainerService.HintSize="1287,622" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart sap:VirtualizedContainerService.HintSize="633.6,660" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
         <Variable x:TypeArguments="x:String" Name="variable2" />
         <Variable x:TypeArguments="x:String" Name="userChoice" />
@@ -94,18 +94,18 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
           <av:Point x:Key="ShapeLocation">455,15</av:Point>
-          <av:Size x:Key="ShapeSize">50,50</av:Size>
+          <av:Size x:Key="ShapeSize">49.6,49.6</av:Size>
           <av:PointCollection x:Key="ConnectorLocation">480,65 480,125</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Flowchart.StartNode>
         <x:Reference>__ReferenceID2</x:Reference>
       </Flowchart.StartNode>
-      <FlowStep>
+      <FlowStep sap2010:WorkflowViewState.IdRef="FlowStep_4">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">75,425</av:Point>
-            <av:Size x:Key="ShapeSize">110,70</av:Size>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <Sequence DisplayName="Grocery" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_2">
@@ -194,11 +194,11 @@
           </If>
         </Sequence>
       </FlowStep>
-      <FlowStep>
+      <FlowStep sap2010:WorkflowViewState.IdRef="FlowStep_5">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">925,415</av:Point>
-            <av:Size x:Key="ShapeSize">110,70</av:Size>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <Sequence DisplayName="Restaurant" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_8">
@@ -209,11 +209,11 @@
           </sap:WorkflowViewStateService.ViewState>
         </Sequence>
       </FlowStep>
-      <FlowStep x:Name="__ReferenceID2">
+      <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">425,125</av:Point>
-            <av:Size x:Key="ShapeSize">110,70</av:Size>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">480,195 480,225 490,225 490,255</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -225,12 +225,12 @@
           </sap:WorkflowViewStateService.ViewState>
         </ui:MessageBox>
         <FlowStep.Next>
-          <FlowStep x:Name="__ReferenceID0">
+          <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <av:Point x:Key="ShapeLocation">435,255</av:Point>
                 <av:PointCollection x:Key="ConnectorLocation">490,325 490,375</av:PointCollection>
-                <av:Size x:Key="ShapeSize">110,70</av:Size>
+                <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <If Condition="[userChoice = &quot;Cancel&quot;]" sap:VirtualizedContainerService.HintSize="452,523" sap2010:WorkflowViewState.IdRef="If_3">
@@ -264,11 +264,11 @@
               </If.Else>
             </If>
             <FlowStep.Next>
-              <FlowStep x:Name="__ReferenceID1">
+              <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_3">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <av:Point x:Key="ShapeLocation">435,375</av:Point>
-                    <av:Size x:Key="ShapeSize">110,70</av:Size>
+                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <If Condition="[shop = &quot;grocery&quot; OR shop = &quot;Grocery&quot;]" sap:VirtualizedContainerService.HintSize="686,453" sap2010:WorkflowViewState.IdRef="If_4">
@@ -317,6 +317,24 @@
       </FlowStep>
       <x:Reference>__ReferenceID0</x:Reference>
       <x:Reference>__ReferenceID1</x:Reference>
+      <FlowStep>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">635,445</av:Point>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Buy_and_Wear - Invoke Workflow File (Buy_and_Wear.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Buy_and_Wear.xaml">
+          <ui:InvokeWorkflowFile.Arguments>
+            <scg:Dictionary x:TypeArguments="x:String, Argument" />
+          </ui:InvokeWorkflowFile.Arguments>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:InvokeWorkflowFile>
+      </FlowStep>
     </Flowchart>
   </Sequence>
 </Activity>

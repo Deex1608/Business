@@ -1,6 +1,6 @@
 {
   "Version": "1.0",
   "IncludeWorkflows": [
-    "Main.xaml"
+    "Buy_and_Wear.xaml"
   ]
 }
